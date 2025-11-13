@@ -4,7 +4,4 @@ aiosqlite
 httpx
 tenacity
 apscheduler
-pytz
-timezonefinder
 python-dotenv
-os
