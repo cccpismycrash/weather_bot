@@ -7,7 +7,6 @@ from aiogram.filters.state import StateFilter
 import logging
 
 from states import *
-from scheduler import schedule
 from workers import worker
 
 import db.requests as db

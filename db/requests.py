@@ -190,6 +190,7 @@ async def delete_user_relations(telegram_id: int) -> None:
         await session.commit()
         return
 
+
 async def get_city_data(city_id: int) -> dict[str, str | float]:
 
     """
